@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>messeges</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>lapbook</h1>
+        <nav>
+            <a href="index.html" ><img src="home.png" class="nav-icon"></a>
+            <a href="#"><img src="notification.png" class="nav-icon"></a>
+            <a href="messeger.html"> <img src="messenger.png" class="nav-icon"></a>
+            <a href="profile.html"><img src="profile.png" class="nav-icon"></a>
+            <a href="ai.html"><img src="artificial-intelligence-ai-symbol-flat-icon_423491-535.jpg" class="nav-icon"></a>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Find friends...">
+        <button class="search-btn"><img src="search1.png" class="search-icon"></button>
+    </div>
+    <section class="messenger">
+        <h2>Messeges</h2>
+        <div id="messege-box">
+        <!--Messeges will be dynamically added here-->
+        </div>
+        <form>
+            <input type="text" class="messege" id="messege-content" placeholder="Type your messege here.."><br>
+            <button type="buttons" class="send" onclick="sendMessege()">Send</button>
+        </form>
+    
+    </section>
+    <script src="index.js"></script>
+    
+</body>
+</html>

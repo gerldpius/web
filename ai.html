@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style/ai.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <header>
+        <h1>lapbook</h1>
+        <nav>
+            <a href="index.html" ><img src="pics/home.png" class="nav-icon"></a>
+            <a href="#"><img src="pics/notification.png" class="nav-icon"></a>
+            <a href="messeger.html"> <img src="pics/messenger.png" class="nav-icon"></a>
+            <a href="profile.html"><img src="pics/profile.png" class="nav-icon"></a>
+            <a href="videos.html"><img src="pics/youtube-video-icon-with-blue-theme_653681-168.jpg" class="nav-icon"></a>
+            <a href="ai.html"><img src="pics/artificial-intelligence-ai-symbol-flat-icon_423491-535.jpg" class="nav-icon"></a>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Find friends...">
+        <button class="search-btn"><img src="pics/search1.png" class="search-icon"></button>
+    </div>
+    <div class="chat-container">
+        <div id="chat-box">
+            <p class="bot-message">Hello! How can I assist you?</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+    </div>
+
+    <script src="script/ai.js"></script>
+</body>
+</html>

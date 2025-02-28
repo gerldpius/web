@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos & Reels</title>
+    <link rel="stylesheet" href="vid.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>lapbook</h1>
+        <nav>
+            <a href="index.html" ><img src="home.png" class="nav-icon"></a>
+            <a href="#"><img src="notification.png" class="nav-icon"></a>
+            <a href="messeger.html"> <img src="messenger.png" class="nav-icon"></a>
+            <a href="profile.html"><img src="profile.png" class="nav-icon"></a>
+            <a href="videos.html"><img src="youtube-video-icon-with-blue-theme_653681-168.jpg" class="nav-icon"></a>
+            <a href="ai.html"><img src="artificial-intelligence-ai-symbol-flat-icon_423491-535.jpg" class="nav-icon"></a>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Find friends...">
+        <button class="search-btn"><img src="search1.png" class="search-icon"></button>
+    </div>
+    <div class="video-container">
+        <h2>Upload & Watch Videos</h2>
+
+        <!-- Video Upload Section -->
+        <input type="file" id="video-upload" accept="video/*">
+        <button id="upload-btn">Upload Video</button>
+
+        <!-- Reels Upload Section -->
+        <h3>Upload a Reel</h3>
+        <input type="file" id="reel-upload" accept="video/*">
+        <button id="upload-reel-btn">Upload Reel</button>
+
+        <!-- Video List -->
+        <div class="video-list">
+            <h3>Your Videos</h3>
+            <div id="videos"></div>
+        </div>
+
+        <!-- Reels Section -->
+        <div class="reels-list">
+            <h3>Your Reels</h3>
+            <div id="reels"></div>
+        </div>
+    </div>
+
+    <script src="vid.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>lapbook</h1>
+        <nav>
+            <a href="index.html" ><img src="home.png" class="nav-icon"></a>
+            <a href="#"><img src="notification.png" class="nav-icon"></a>
+            <a href="messeger.html"> <img src="messenger.png" class="nav-icon"></a>
+            <a href="profile.html"><img src="profile.png" class="nav-icon"></a>
+            <a href="ai.html"><img src="artificial-intelligence-ai-symbol-flat-icon_423491-535.jpg" class="nav-icon"></a>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Find friends...">
+        <button class="search-btn"><img src="search1.png" class="search-icon"></button>
+    </div>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img id="profile-pic" src="Polish_20240627_212022742.jpg" alt="Profile Picture">
+            <input type="file" id="upload-image" accept="image/*">
+        </div>
+
+        <div class="profile-info">
+            <label>Name:</label>
+            <p id="profile-name">John Doe</p>
+            <input type="text" id="edit-name" class="hidden">
+
+            <label>Email:</label>
+            <p id="profile-email">johndoe@example.com</p>
+            <input type="email" id="edit-email" class="hidden">
+
+            <label>Bio:</label>
+            <p id="profile-bio">Web Developer & Tech Enthusiast</p>
+            <textarea id="edit-bio" class="hidden"></textarea>
+        </div>
+
+        <button id="edit-btn">Edit Profile</button>
+        <button id="save-btn" class="hidden">Save Changes</button>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
