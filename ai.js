@@ -23,7 +23,7 @@ function addMessage(text, className) {
 
 function getBotResponse(input) {
     const responses = {
-        "hello": "Hi there! I'm Cavin, How can I help?",
+        "hello": "Hi there! I'm Chatbot, How can I help?",
         "how are you": "I'm just a bot, but I'm doing great!",
         "what can you do": "Currently I'm not so strong but i can write some simple codes!!",
         "ok": "Yeah!",
